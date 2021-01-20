@@ -2,14 +2,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title><%= "some title" %></title>
+    <title><%= "JSPs and JSTLs" %></title>
 </head>
 <body>
-    <c:if test="true">
-        <h1>Variable names should be very descriptive</h1>
-    </c:if>
-    <c:if test="false">
-        <h1>single letter variable names are good</h1>
-    </c:if>
+
+    <h3>Hello</h3>
+
+    <button onclick="window.location.href = '/login.jsp';">Login</button>
+<%--    <%@ include file="/login.jsp" %>--%>
 </body>
 </html>
