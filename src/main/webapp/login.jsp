@@ -4,7 +4,8 @@
         <title><%= "JSPs and JSTLs" %></title>
     </head>
     <body>
-        <h3>Login</h3>
+    <%@ include file="/navbar.jsp" %>
+    <h3>Login</h3>
         <form action="/login.jsp" method="POST">
             <label for="username">Username</label>
             <input name="username" id="username">
@@ -23,7 +24,5 @@
                 response.sendRedirect("/login.jsp");
             }
         }%>
-
-
     </body>
 </html>
