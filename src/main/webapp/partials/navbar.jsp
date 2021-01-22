@@ -5,8 +5,13 @@
             <a class="navbar-brand" href="/ads">Adlister</a>
         </div>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="/login">Login</a></li>
+            <li><a href="/pizza.jsp">Pizza</a></li>
         </ul>
-    </div><!-- /.navbar-collapse -->
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="/login.jsp">Login</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="/guess.jsp">Guess</a></li>
+        </ul>
     </div><!-- /.container-fluid -->
 </nav>
